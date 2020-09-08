@@ -61,6 +61,10 @@ header {
     padding: 1em 1.5em 1em 1.5em;
 }
 
+.navbrandmobile {
+    display: none;
+}
+
 .brandtext {
     text-align: right;
     color: #5500ff;
@@ -83,12 +87,63 @@ header {
 .navbar-expand-sm {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    color: #2f2736;
+    color: ;
+}
+
+.formbutton {
+    border: 0;
+    margin: 0;
 }
 
 .btn-outline-info {
     display: inline-block;
     font-family: 'Rajdhani', sans-serif;
-    color: #000;
+    color: #2f2736;
     border-color: #5500ff;
+}
+
+.btn-outline-info:hover {
+    background-color: #957dad;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {}
+
+
+/*---------------------------------------------------------- Media queries */
+
+@media (max-width: 491px) {
+    .navbrandmobilehide {
+        display: none;
+    }
+    .navbrandmobile {
+        display: block;
+    }
+    .navbar-brand {
+        padding: 10px 2px 10px 5px;
+    }
+    .brandtext {
+        text-align: left;
+        color: #5500ff;
+        font-size: 90%;
+        line-break: 1;
+        padding-right: 0;
+    }
+    .brandtext2::before {
+        content: "\A";
+        white-space: pre;
+    }
+    .brandtext3::before {
+        content: "\A";
+        white-space: pre;
+    }
+    .brandtext4 {
+        visibility: hidden;
+    }
 }
