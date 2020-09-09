@@ -10,6 +10,10 @@ body {
     background-color: #ffdfd3;
 }
 
+footer {
+    background-color: #fec8d8;
+}
+
 
 /*---------------------------------------------------------- Hover FX */
 
@@ -41,12 +45,14 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
 
-/*---------------------------------------------------------- Navigation Header */
+/*---------------------------------------------------------- Navigation header */
 
 header {
     margin: 0;
@@ -67,7 +73,8 @@ header {
 
 .brandtext {
     text-align: right;
-    color: #5500ff;
+    color: #9b38ff;
+    font-weight: 600;
 }
 
 .navitem {
@@ -75,7 +82,7 @@ header {
     text-align: center;
     position: relative;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -87,7 +94,6 @@ header {
 .navbar-expand-sm {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    color: ;
 }
 
 .formbutton {
@@ -113,7 +119,44 @@ header {
     box-shadow: none;
 }
 
-.navbar-light .navbar-toggler-icon {}
+.navbar-toggler-icon {
+    padding-right: 3px;
+}
+
+
+/*---------------------------------------------------------- Footer */
+
+.footernav {
+    height: auto;
+}
+
+.peter-website-icon,
+.peter-website-signup-icon {
+    display: inline;
+    font-size: 60px;
+    color: #9b38ff;
+    text-align: center;
+}
+
+.peter-website-icon:hover {
+    text-decoration: none;
+    color: #5500ff;
+}
+
+.peter-website-signup-icon:hover {
+    text-decoration: none;
+    font-size: 90px;
+    color: #5bc0de;
+}
+
+footer h4 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 21px;
+    color: #2f2736;
+}
 
 
 /*---------------------------------------------------------- Media queries */
@@ -130,9 +173,8 @@ header {
     }
     .brandtext {
         text-align: left;
-        color: #5500ff;
+        color: #9b38ff;
         font-size: 90%;
-        line-break: 1;
         padding-right: 0;
     }
     .brandtext2::before {
