@@ -55,10 +55,6 @@
                 </form>
             </div>
         </nav>
-
-
-
-
     </header>
 
     <section>
@@ -76,10 +72,11 @@
             </div>
             <div class="col-4" style="text-align: center;">
                 <h4 class="uppercase general-sub inline-block">I'm ready to sign up for the next event!</h4>
-                <a href="http://www.thebabieswebsite.com/" target="_blank">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">
                     <i class="fa fa-user-plus peter-website-signup-icon" aria-hidden="true"></i>
                     <span class="sr-only">Sign up form</span>
-                </a>
+                </button>
+
             </div>
             <div class="col-4" style="text-align: center;">
                 <h4 class="uppercase general-sub inline-block">Connect with us</h4>
@@ -95,8 +92,51 @@
                 </a>
             </div>
         </div>
+
     </footer>
 
+    <div id="signUpModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signUpModalTitle">Sign up now</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formControlInputEmail">Email address</label>
+                            <input type="email" class="form-control" id="formControlInputEmail" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="formControlInputName">Full Name</label>
+                            <input type="name" class="form-control" id="formControlInputName" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="formControlSelection">Select the event</label>
+                            <select multiple class="form-control" id="formControlSelection" required>
+                            <option>Full Course in Lisbon - Sep 7th/14th</option>
+                            <option>Full Course in Porto - Nov 1st/8th</option>
+                            <option>Full Course Online - Oct 10th/17th</option>
+                            <option>Introductory Workshop - Sep 1st/2nd</option>
+                            <option>Free Zoom Webinar - Sep 30th</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="formControlComments">Leave your comments below</label>
+                            <textarea class="form-control" id="formControlComments" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

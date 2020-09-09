@@ -188,4 +188,8 @@ footer h4 {
     .brandtext4 {
         visibility: hidden;
     }
+    /* footer>div>div>h4 {
+        display: none;
+        visibility: hidden;
+    } NOT WORKING */
 }
