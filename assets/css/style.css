@@ -129,6 +129,27 @@ header {
 }
 
 
+/*---------------------------------------------------------- Index Section */
+
+.container-fluid-style {}
+
+.heroimg-container {
+    background: url("./assets/images/hero-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 60vh;
+    min-height: 360px;
+    overflow: hidden;
+}
+
+
+/* .heroimg {
+    overflow: hidden;
+    max-height: 50vh;
+} */
+
+
 /*---------------------------------------------------------- Footer */
 
 footer {
@@ -145,15 +166,15 @@ footer {
     color: #f0eff2;
     text-align: center;
     background-color: #1f0e55;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     border: 1px solid #f0eff2;
     border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
 }
 
 .footer-icon:hover {
@@ -161,32 +182,22 @@ footer {
 }
 
 .footer-signup-icon:hover {
-    font-size: 21px;
-    width: 42px;
-    height: 42px;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
     color: #7693a9;
 }
 
 .signup-button {
     border: none;
     padding: 0;
-}
-
-.btn-primary {
     color: transparent;
     background-color: transparent;
     border-color: transparent;
 }
 
-.btn-primary:hover {
+.signup-button:hover {
     color: transparent;
-    background-color: transparent;
-    border-color: transparent;
-}
-
-header button,
-select {
-    text-transform: none;
     background-color: transparent;
     border-color: transparent;
 }
@@ -194,59 +205,16 @@ select {
 footer h4 {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 27px;
     margin-left: 0;
     margin-right: 0;
-    font-size: 21px;
+    font-size: 17px;
     color: #f0eff2;
-    margin-bottom: 15px;
-}
-
-.icon-content-small {
-    display: none;
+    margin-bottom: 5px;
 }
 
 
 /*---------------------------------------------------------- Media queries */
-
-@media (max-width: 850px) {
-    .footer-icon,
-    .footer-signup-icon {
-        display: inline;
-        color: #f0eff2;
-        text-align: center;
-        background-color: #1f0e55;
-        padding: 5px 5px 5px 5px;
-        border: 1px solid #f0eff2;
-        border-radius: 50%;
-        margin-left: 5px;
-        margin-right: 5px;
-        text-decoration: none;
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
-    }
-    .footer-icon:hover {
-        color: #7693a9;
-    }
-    .footer-signup-icon:hover {
-        font-size: 14px;
-        width: 28px;
-        height: 28px;
-        color: #7693a9;
-    }
-    footer h4 {
-        font-size: 17px;
-        color: #f0eff2;
-        margin-bottom: 5px;
-        padding-top: 27px;
-    }
-}
-
-@media (max-width: 768px) {
-    footer h4 {
-        padding-top: 5px;
-    }
-}
 
 @media (max-width: 491px) {
     .navbar-brand {
@@ -256,16 +224,4 @@ footer h4 {
 
 footer h4 {
     padding-top: 5px;
-}
-
-
-}
-@media (max-width: 491px) {
-    .icon-content {
-        display: none;
-    }
-    
-    .icon-content-small {
-        display: inline;
-    }
 }
