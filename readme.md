@@ -105,7 +105,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 Credits:
 Colour scheme to https://dribbble.com/shots/14172278-Nutrition-Food-Company-Website
 Hover effects to https://codepen.io/jstn/pen/zuDst
-Icons to fontawesome.com
+Icons to fontawesome.com and https://icons8.com/
 Logo to freelogodesign.com
 
 
