@@ -7,7 +7,7 @@ header {
 }
 
 body {
-    background-color: ##f0eff2;
+    background-color: #f0eff2;
 }
 
 footer {
@@ -132,30 +132,32 @@ header {
 /*---------------------------------------------------------- Content Page Layout */
 
 .section-row1 {
-    height: 50vh;
+    height: 55vh;
+    overflow-y: scroll;
 }
 
 .section-row2 {
-    height: 50vh;
+    height: 30vh;
+    overflow-y: scroll;
 }
 
 .section-row1-col1 {
-    display: inline;
+    display: block;
+    min-height: 360px;
 }
 
 .section-row1-col2 {
-    display: inline-block;
+    display: block;
     background-color: #f0eff2;
-    text-overflow: ellipsis;
 }
 
 .section-row2-col1 {
-    display: inline;
+    display: block;
     background-color: #b5e3d7;
 }
 
 .section-row2-col2 {
-    display: inline;
+    display: block;
     background-color: #fff;
 }
 
@@ -194,14 +196,6 @@ header {
     text-align: center;
 }
 
-.section-text:last-of-type {
-    padding-bottom: 50px;
-}
-
-#section-row {
-    margin-bottom: 40px;
-}
-
 
 /*---------------------------------------------------------- pw-history.html Section */
 
@@ -225,15 +219,51 @@ header {
     text-align: center;
 }
 
+#achievements-title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.achievements-text {
+    display: inline;
+    float: left;
+}
+
+.card {
+    border: 0;
+}
+
+.card-header {
+    background-color: #b5e3d7;
+    text-align: center;
+}
+
+.card-header h5 .btn {
+    color: rgb(0, 71, 52);
+}
+
+.card-header h5 .btn:hover {
+    text-decoration: none;
+    color: #967ce9;
+}
+
+.card-body {
+    background-color: rgba(181, 227, 215, 0.7);
+    text-align: center;
+    color: rgb(0, 71, 52);
+}
+
+#accordion {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 /*---------------------------------------------------------- Footer */
 
 footer {
+    display: block;
     padding-bottom: 15px;
-}
-
-.footernav {
-    height: auto;
 }
 
 .footer-icon,
@@ -254,14 +284,14 @@ footer {
 }
 
 .footer-icon:hover {
-    color: #7693a9;
+    color: #b5e3d7;
 }
 
 .footer-signup-icon:hover {
     font-size: 14px;
     width: 28px;
     height: 28px;
-    color: #7693a9;
+    color: #b5e3d7;
 }
 
 .signup-button {
@@ -293,14 +323,11 @@ footer h4 {
 /*---------------------------------------------------------- Media queries */
 
 @media (max-width: 768px) {
-    #section-last-p {
-        margin-bottom: 150px;
-    }
-    #section-row {
-        margin-bottom: 0;
-    }
     .section-row1 {
         height: 100vh;
+    }
+    .section-row1-col1 {
+        height: 70vh;
     }
     .section-row2 {
         height: 100vh;
