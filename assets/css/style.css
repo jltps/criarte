@@ -226,7 +226,11 @@ header {
 
 .achievements-text {
     display: inline;
+    padding-top: 3px;
     float: left;
+    -webkit-box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
+    -moz-box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
+    box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
 }
 
 .card {
@@ -256,6 +260,37 @@ header {
 #accordion {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+
+/*---------------------------------------------------------- pw-history.html Section */
+
+.thumbnails img {
+    height: 60px;
+    border: 1px solid #2f2736;
+    padding: 1px;
+    margin: 0 1px 1px 0;
+}
+
+.thumbnails img:hover {
+    border: 2px solid #967ce9;
+    cursor: pointer;
+}
+
+.gallery>h3 {
+    padding-top: 20px;
+}
+
+.preview {
+    min-width: 98.99vw;
+}
+
+#preview {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 
@@ -331,6 +366,9 @@ footer h4 {
     }
     .section-row2 {
         height: 100vh;
+    }
+    .thumbnails img {
+        height: 50px;
     }
 }
 
