@@ -6,20 +6,63 @@ Peter and Criarte joined forces to make Baby Developmental Massage Courses avail
 
 ## UX
 
-This website is made for moms and health professionals. The vast majority of users will be woman, so the color palett chosen is more appealing to the feminine side.
+This website is made for moms and health professionals. The vast majority of users will be woman, so the color palette chosen is more appealing to the feminine side.
 
-At this stage of development I will focus in static elements of information about the courses, so the UI is designed to make all the items very accessible. For most of it the user only needs 1 click to get what he wants, whether it is some background about the co-organizers or relevant information about past or upcoming courses.
+At this stage of development I focused on static elements of information about the courses, so the UI is designed to make all the items very accessible. For most of it the user only needs 1 or 2 clicks to get what he wants, whether it is some background about the co-organizers or relevant information about past or upcoming courses.
 
 Every page uses a responsive design so it looks good and provides a good UX on any kind of device.
+I made a mockup of the pages using Adobe XD (LINK XXXXXXXXXXXXXXXXXXXXXXX) to guide me through the coding process, but many of the initial ideas were changed or adapted as the project evolved.
 
-<!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+These are the user stories that guided the design process:
+- As a user, I want to want to know a lot about the backgrounds of PW and Criarte, so I can be sure that this is a high quality course.
+- As a user, I want to explore more content from other sources (like social media and external websites), to build up my interest about DBM.
+- As a user, I want to know about previous events, so I can decide if this is something that would interest me.
+- As a user, I want a fast a simple way to sign up for an event when i make my decision.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+
+The whole website and its components are responsive to the screen size where it's being viewed.
+
+It consists of:
+    - 3 base layouts for the different kinds of pages:
+      - Home/landing page
+      - Information page
+      - Gallery page
+    - 2 navigation elements:
+      - Top menu to browse through the pages
+      - Footer with links to relevant content
+  
+### These are the existing Features
+
+- Hover effects on menu items, logo and links - to make the navigation easy and visually appealing.
+- Clickable icons - to link to external content or send an email.
+- Sign up form on the bottom - always accessible to the user when he decides to go forward.
+- Gallery show media on hover - on desktop view, user only needs to hover the photo thumbnail to show the full size media.
+
+### These are the features Left to Implement
+
+- Dual language - to make the website available in English and Portuguese.
+
+
+
+## Technologies Used
+
+This website was written in HTML and CSS.
+
+Some additional technologies were used to achieve the result:
+    - Bootstrap 4.5.2 to facilitate the design ([## Technologies Used](https://getbootstrap.com/))
+    - jQuery 3.4.1 for modal form (https://jquery.com/)
+    - Fontawesome 5 for icons (https://fontawesome.com/)
+    - 
+
+
+
+
+
+
+<!-- 
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  

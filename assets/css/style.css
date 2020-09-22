@@ -263,7 +263,7 @@ header {
 }
 
 
-/*---------------------------------------------------------- pw-history.html Section */
+/*---------------------------------------------------------- media.html Section */
 
 .thumbnails img {
     height: 60px;
@@ -291,6 +291,72 @@ header {
     display: block;
     margin: 0 auto;
     vertical-align: middle;
+}
+
+
+/*---------------------------------------------------------- cri-history.html Section */
+
+#criarte-photo {
+    position: relative;
+    background: url("../images/criarte-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.row2-col2-images {
+    height: 100%;
+    max-height: 11vh;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.row2-col2-imgcontainer {
+    padding: 0;
+}
+
+
+/*---------------------------------------------------------- courses.html Section */
+
+#course-photo {
+    position: relative;
+    background: url("../images/dbm-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.embed-responsive {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.course-teachings-text {
+    position: absolute;
+}
+
+
+/*---------------------------------------------------------- events.html Section */
+
+#events-photo {
+    position: relative;
+    background: url("../images/events-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 
@@ -362,13 +428,18 @@ footer h4 {
         height: 100vh;
     }
     .section-row1-col1 {
-        height: 70vh;
+        height: 60vh;
     }
     .section-row2 {
         height: 100vh;
     }
     .thumbnails img {
         height: 50px;
+    }
+    .embed-responsive {
+        height: 300px;
+        margin-top: 0px;
+        margin-bottom: 30px;
     }
 }
 
