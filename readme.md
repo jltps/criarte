@@ -5,6 +5,8 @@ Criarte is a project about Yoga and events of artistic and pedagogical expressio
 Peter and Criarte joined forces to make Baby Developmental Massage Courses availabe in Portugal, and this website intends to become an infomation hub about this organization, and promote these events to the local target audience (even though everything is in english for evaluation purposes) and the online events to a global audience.
 
 
+
+
 ## UI/UX
 
 This website is made for moms and health professionals. The vast majority of users will be woman, so the color palette chosen is more appealing to the feminine side.
@@ -21,6 +23,8 @@ These are the user stories that guided the design process:
 - As a user, I want a fast a simple way to sign up for an event when i make my decision.
 
 
+
+
 ## Features
 
 The whole website and its components are responsive to the screen size where it's being viewed.
@@ -35,6 +39,8 @@ It consists of:
       - Footer with links to relevant content
   
 
+
+
 ### These are the existing Features
 
 - Hover effects on menu items, logo and links - to make the navigation easy and visually appealing.
@@ -44,9 +50,13 @@ It consists of:
 - Youtube embedded video on the Course page
 
 
+
+
 ### These are the features Left to Implement
 
 - Dual language - to make the website available in English and Portuguese.
+
+
 
 
 ## Technologies Used
@@ -54,10 +64,10 @@ It consists of:
 This website was written in HTML and CSS.
 
 Some additional technologies were used to achieve the result:
-    - Bootstrap 4.5.2 to enhance the design and functionalities ([## Technologies Used](https://getbootstrap.com/))
-    - jQuery 3.4.1 for modal form (https://jquery.com/)
-    - Fontawesome 5 for icons (https://fontawesome.com/)
-    - Youtube embedded video (https://www.youtube.com)
+- Bootstrap 4.5.2 to enhance the design and functionalities (https://getbootstrap.com/))
+- jQuery 3.4.1 for modal form (https://jquery.com/)
+- Fontawesome 5 for icons (https://fontawesome.com/)
+- Youtube embedded video (https://www.youtube.com)
 
 
 ## Testing
