@@ -75,7 +75,7 @@ header {
 }
 
 .navbar-brand {
-    padding: 1em 1.5em 1em 1.5em;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .navbar-nav {
@@ -101,22 +101,6 @@ header {
     padding-left: 0.5rem;
 }
 
-.formbutton {
-    border: 0;
-    margin: 0;
-}
-
-.btn-outline-info {
-    display: inline-block;
-    font-family: 'Rajdhani', sans-serif;
-    color: #2f2736;
-    border-color: #967ce9;
-}
-
-.btn-outline-info:hover {
-    background-color: #44d799;
-}
-
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -129,7 +113,7 @@ header {
 }
 
 
-/*---------------------------------------------------------- Content Page Layout */
+/*---------------------------------------------------------- Content Pages Layout */
 
 .section-row1 {
     height: 55vh;
@@ -166,6 +150,8 @@ header {
     text-shadow: 1px 1px #baabef;
     margin-top: 20px;
     margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 
@@ -178,7 +164,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 132px);
-    max-height: 55vh;
+    max-height: 65vh;
     overflow: visible;
 }
 
@@ -193,7 +179,7 @@ header {
 .section-icons {
     display: block;
     margin: auto;
-    padding: 10px 0px 0px 0px;
+    padding: 55px 0px 20px 0px;
     text-align: center;
 }
 
@@ -201,6 +187,11 @@ header {
     padding-bottom: 3px;
     color: rgba(31, 14, 85, 0.6);
     text-align: center;
+    font-weight: 500;
+}
+
+#index-section2 {
+    padding-bottom: 55px;
 }
 
 
@@ -226,18 +217,9 @@ header {
     text-align: center;
 }
 
-#achievements-title {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 .achievements-text {
-    display: block;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
     float: left;
+    margin-bottom: 30px;
     -webkit-box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
     -moz-box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
     box-shadow: 6px 3px 7px -2px rgba(31, 14, 85, 0.5);
@@ -252,11 +234,13 @@ header {
     text-align: center;
 }
 
-.card-header h5 .btn {
+.card-header .btn {
     color: rgb(0, 71, 52);
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.card-header h5 .btn:hover {
+.card-header .btn:hover {
     text-decoration: none;
     color: #967ce9;
 }
@@ -292,15 +276,12 @@ header {
 }
 
 .preview {
-    min-width: 98.99vw;
-}
-
-#preview {
-    height: 100%;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    vertical-align: middle;
+    height: 65vh;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 
 
@@ -316,18 +297,8 @@ header {
 }
 
 .row2-col2-images {
-    height: 100%;
-    max-height: 11vh;
-    width: 100%;
-    display: block;
-    float: left;
-    padding: 0;
-    margin: 0 auto;
-    vertical-align: middle;
-}
-
-.row2-col2-imgcontainer {
-    padding: 0;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 
@@ -370,27 +341,24 @@ header {
     margin-top: 25px;
 }
 
-.card {
+.events-card {
     border: 1px solid rgba(0, 0, 0, .125)!important;
+    margin-bottom: 35px!important;
 }
 
-.table {
-    margin-top: 25px;
+.table-text-style {
+    font-weight: 600;
 }
 
 
 /*---------------------------------------------------------- Footer */
 
 footer {
-    display: block;
-    position: relative;
-    clear: both;
-    bottom: 0;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 35px;
 }
 
-.footer-icon,
-.footer-signup-icon {
+.footer-icon {
     display: inline;
     color: #f0eff2;
     text-align: center;
@@ -407,13 +375,6 @@ footer {
 }
 
 .footer-icon:hover {
-    color: #b5e3d7;
-}
-
-.footer-signup-icon:hover {
-    font-size: 14px;
-    width: 28px;
-    height: 28px;
     color: #b5e3d7;
 }
 
@@ -460,7 +421,8 @@ footer h4 {
         height: 60vh;
     }
     .section-row2 {
-        height: 100vh;
+        height: auto;
+        overflow-y: unset;
     }
     .thumbnails img {
         height: 50px;
@@ -470,14 +432,13 @@ footer h4 {
         margin-top: 0px;
         margin-bottom: 30px;
     }
+    .preview {
+        width: auto;
+    }
 }
 
 @media (max-width: 491px) {
     .navbar-brand {
         padding: 10px 2px 10px 5px;
-    }
-    .card {
-        margin-top: 25px;
-        margin-bottom: 15px;
     }
 }
