@@ -126,8 +126,11 @@ Code validation:
 
 ## Deployment
 
-The website was deployed in Github Pages, directly from the repository files.
-It can be accessed here: https://jltps.github.io/criarte/ 
+The website was deployed in Github Pages, directly from the repository files, using the following procedure:
+1. Open Github website and select the appropriate repository
+2. Click 'Setting' on the menu and scroll down until you find Github Pages 
+3. Under the 'Source' click on the dropdown and select 'master branch'. The page will reload and you'll see the link of your published page
+4. Click the link to view the published website: https://jltps.github.io/criarte/ 
 
 
       
